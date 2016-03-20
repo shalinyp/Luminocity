@@ -1,4 +1,4 @@
-<project name="AntJavaProject" default="main" basedir=".">
+<project name="TestDateUtils" default="main" basedir=".">
 	<description>
 		Create a Java Project (JAR) with Ant build script
 	</description>
@@ -34,7 +34,7 @@
 		<!-- Put everything in ${build} into the {$projectName}-${DSTAMP}.jar file -->
 		<jar jarfile="${dist.dir}/${projectName}-${DSTAMP}.jar" basedir="${build.dir}">
 			<manifest>
-				<attribute name="Main-Class" value="com.mkyong.core.utils.DateUtils" />
+				<attribute name="Main-Class" value="com.luminocity.core.utils.DateUtils" />
 			</manifest>
 		</jar>
 	</target>
